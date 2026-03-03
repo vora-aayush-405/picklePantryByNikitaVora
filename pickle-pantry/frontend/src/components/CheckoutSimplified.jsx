@@ -140,6 +140,7 @@ const CheckoutSimplified = ({ language }) => {
 
     setReceiptData(receipt);
     setStep('receipt');
+    clearCart();
     
     toast({
       title: language === 'en' ? '✅ Order Placed Successfully!' : '✅ ઓર્ડર સફળતાપૂર્વક મૂકાયો!',
@@ -147,7 +148,7 @@ const CheckoutSimplified = ({ language }) => {
         ? `Order #${orderId} confirmed` 
         : `ઓર્ડર #${orderId} પુષ્ટિ થઈ`,
     });
-    resetCheckout();
+    
   };
 
   const openPaymentApp = async (app) => {
