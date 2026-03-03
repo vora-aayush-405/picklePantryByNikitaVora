@@ -8,7 +8,7 @@ export const pickleVarieties = [
     descriptionEn: "Traditional tangy mango pickle made with authentic spices",
     descriptionGu: "પરંપરાગત ખાટી કેરીનું અથાણું અસલી મસાલા સાથે",
     image: "https://i.ibb.co/23mDWftm/Keri-Khaatu-Athaanu.png",
-    price: "₹1/jar",
+    price: "₹300/jar",
     taste: ["Tangy", "Spicy"]
   },
   {
@@ -98,12 +98,12 @@ export const testimonials = [
     nameGu: "રાજેશ પટેલ",
     textEn: "Authentic taste and quality. Regular customer for over a year now!",
     textGu: "અસલી સ્વાદ અને ગુણવત્તા. એક વર્ષથી વધુ સમયથી નિયમિત ગ્રાહક!",
-    rating: 5
+    rating: 4.8
   },
   {
     id: 3,
-    nameEn: "Meera Desai",
-    nameGu: "મીરા દેસાઈ",
+    nameEn: "Meera Shukla",
+    nameGu: "મીરા શુક્લા",
     textEn: "Love the variety and the traditional flavors. Perfect with every meal!",
     textGu: "વિવિધતા અને પરંપરાગત સ્વાદ ખૂબ ગમે છે. દરેક ભોજન સાથે સંપૂર્ણ!",
     rating: 5

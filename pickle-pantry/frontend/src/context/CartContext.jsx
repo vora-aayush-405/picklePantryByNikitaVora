@@ -88,7 +88,7 @@ export const CartProvider = ({ children }) => {
 
   const getDeliveryCharge = () => {
     const total = getCartTotal();
-    return total >= 500 ? 0 : 0; //later add 50 here
+    return total >= 500 ? 0 : 80; //later add 50 here
   };
 
   const getFinalTotal = () => {

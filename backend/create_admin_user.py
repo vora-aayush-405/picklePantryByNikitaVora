@@ -13,10 +13,7 @@ load_dotenv(ROOT_DIR / ".env")
 
 MONGO_URL = os.environ["MONGO_URL"]
 DB_NAME = os.environ["DB_NAME"]
-
-USERNAME = "admin"          # change if you like
-PASSWORD = "admin123"       # set your desired password here
-
+      # set your desired password here
 
 async def main():
     client = AsyncIOMotorClient(MONGO_URL)
