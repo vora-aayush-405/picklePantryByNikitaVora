@@ -18,15 +18,23 @@ export const CartProvider = ({ children }) => {
 
   // Load cart from localStorage on mount
   useEffect(() => {
-    const savedCart = localStorage.getItem('pickleCart');
-    if (savedCart) {
-      setCartItems(JSON.parse(savedCart));
+    try {
+      const savedCart = localStorage.getItem('pickleCart');
+      if (savedCart) {
+        setCartItems(JSON.parse(savedCart));
+      }
+    } catch (err) {
+      console.error('Failed to parse cart');
     }
   }, []);
 
-  // Save cart to localStorage whenever it changes
+  // Save or remove cart when it changes
   useEffect(() => {
-    localStorage.setItem('pickleCart', JSON.stringify(cartItems));
+    if (cartItems.length > 0) {
+      localStorage.setItem('pickleCart', JSON.stringify(cartItems));
+    } else {
+      localStorage.removeItem('pickleCart');
+    }
   }, [cartItems]);
 
   const addToCart = (product, language) => {
