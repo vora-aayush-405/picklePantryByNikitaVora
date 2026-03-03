@@ -147,6 +147,7 @@ const CheckoutSimplified = ({ language }) => {
         ? `Order #${orderId} confirmed` 
         : `ઓર્ડર #${orderId} પુષ્ટિ થઈ`,
     });
+    resetCheckout();
   };
 
   const openPaymentApp = async (app) => {
