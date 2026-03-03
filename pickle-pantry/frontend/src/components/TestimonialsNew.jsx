@@ -18,17 +18,17 @@ const TestimonialsNew = ({ language }) => {
       nameGu: 'રાજેશ પટેલ',
       textEn: 'Been ordering for 2 years now. Consistent quality, authentic taste, and excellent packaging. Highly recommended!',
       textGu: 'હવે 2 વર્ષથી ઓર્ડર કરી રહ્યો છું. સતત ગુણવત્તા, અસલી સ્વાદ અને શ્રેષ્ઠ પેકેજિંગ. અત્યંત ભલામણ કરું છું!',
-      rating: 5,
+      rating: 4.8,
       location: 'Vadodara'
     },
     {
       id: 3,
-      nameEn: 'Meera Desai',
-      nameGu: 'મીરા દેસાઈ',
+      nameEn: 'Meera Shukla',
+      nameGu: 'મીરા શુક્લા',
       textEn: 'Perfect blend of spices! The garlic pickle is my favorite. Delivery was quick and the jars were perfectly sealed.',
       textGu: 'મસાલાનું સંપૂર્ણ મિશ્રણ! લસણનું અચાર મારું પસંદીદા છે. ડિલિવરી ઝડપી હતી અને બરણીઓ સંપૂર્ણ રીતે સીલ કરેલી હતી.',
       rating: 5,
-      location: 'Surat'
+      location: 'Surendranagar'
     }
   ];
 
